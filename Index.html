@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your travel website</title>
+</head>
+
+<body>
+    <div>
+       <h1>Welcome To Your Travel Planer</h1> <hr>
+        <img src="img.travel.jpg" alt="error" width="100%" height="250px">
+        <hr>
+        <h2>Fill Your travel Planer with exciting content and destinations.</h2>
+        <hr>
+        <h3>Travel Form</h3>
+            Your Name:
+            <input type="text" placeholder="your name"><br>
+            Your Email:
+            <input type="email" placeholder="your email"><br>
+            Travel Date and Time:
+            <label for="sectionid">
+            <input type="datetime-local" id="travel date and time " name="datetime" class="form-control"><br>
+            </label>
+            Gender:
+            <label for="checkbox">
+                <input type="checkbox" name="Male" class="Male" id="Gender"> Male
+                <input type="checkbox" name="Female" class="Female" id="Gender"> Female
+            </label><br>
+            Destination: form to select travel destination           
+            <select name="Destination" id="Destination">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select><br>
+            Travel Package:
+            <label for="package1">
+                <input type="radio" name="package1" id="package1"> Budget
+                <input type="radio" name="package2" id="package2"> Standard
+                <input type="radio" name="package3" id="package3"> Luxury<br>
+            </label>
+            <hr>
+            <input type="button" value="Submit" onclick="alert('Form Submitted!')">
+            <hr>
+            <h3>Additional Services:</h3>
+            <input type="checkbox" name="service1" id="service1"> Airport Pickup <br>
+            <input type="checkbox" name="service2" id="service2"> Guided Tours <br>
+            <input type="checkbox" name="service3" id="service3"> Travel Insurance <br>
+            <hr>
+            <h3>Special Requests:</h3>
+            <textarea name="special requests" id="special requests" cols="100%" rows="5" placeholder="Enter any special requests here..."></textarea><br>
+            <hr>
+            <input type="submit" value="Go to Form">
+            <input type="button" value="Click Me" onclick="alert('Button Clicked!')">
+            <input type="button" value="Visit OpenAI" onclick="window.location.href='https: //www.openai.com'" target="_blank">
+
+        </form>
+    </div>
+</body>
+
+</html>
